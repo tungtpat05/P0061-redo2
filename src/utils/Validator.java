@@ -23,7 +23,7 @@ public class Validator {
                 double number = Double.parseDouble(sc.nextLine());
                 
                 //Check number in range
-                if(number >= min && number <=max) {
+                if(number > min && number <=max) {
                     return number;
                 } else {
                     System.err.println("Please input number more than 0");
